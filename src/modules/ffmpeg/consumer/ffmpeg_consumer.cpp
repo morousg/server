@@ -397,7 +397,7 @@ struct Stream
                     frame2->format              = AV_PIX_FMT_YUVA422P;
                     frame2->colorspace          = AVCOL_SPC_BT709;
                     frame2->color_primaries     = AVCOL_PRI_BT709;
-                    frame2->color_range         = AVCOL_RANGE_MPEG;
+                    frame2->color_range         = AVCOL_RANGE_JPEG;
                     frame2->color_trc           = AVCOL_TRC_BT709;
                     av_frame_get_buffer(frame2.get(), 64);
 
